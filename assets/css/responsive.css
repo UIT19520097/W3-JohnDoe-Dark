@@ -1,0 +1,77 @@
+/* Tablet & mobile  */
+@media (max-width: 1023px)
+{
+    .btn-mobile-small
+    {
+        padding: 15px 35px
+    }
+}
+/* Moblie  */
+@media (max-width:739px)
+{
+    .nav
+    {
+        display:none;
+    }
+    .main
+    {
+        margin-left: 0;
+    }
+    .hide-on-mobile
+    {
+        display:none;
+    }
+    .s-12 {
+        width:100%;
+        flex: 0 0 100%;
+    }
+    .s-no-gutter
+    {
+        margin-left: 0;
+        margin-right: 0;
+
+    }
+    .nav__mobile
+    {
+        display: flex;
+    }
+    .header__name
+    {
+        line-height: 1.5;
+        padding:0;
+    }
+    /* content */
+    .content
+    {
+        padding: 0;
+    }
+    /* skill */
+    .section__skills-info-item
+    {
+        padding: 25px 0;
+    }
+    /* price */
+    .section__price-item
+    {
+        margin-bottom: 16px
+    }
+    /* reputation */
+    .section__reputition-item-info
+    {
+        margin: 2px 0 0;
+        
+    }
+    .section__reputition-item-info-name
+    {
+        font-size:1.8rem;
+        font-weight: 500;
+    }
+    .section__reputition-item-info-job
+    {
+        font-size: 1.4rem;
+    }
+    .btn-mobile-full
+    {
+        width: 100%;
+    }
+}

@@ -1,0 +1,355 @@
+/* NAV */
+.nav
+{
+    position: fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    width: 120px;
+    background-color:#222;
+}
+.nav__avatar
+{
+    width: 100%;
+    vertical-align: middle;
+}
+.nav__item
+{
+    display: block;
+    padding: 20px 24px;
+    text-align: center;
+    text-decoration: none;
+    color: var(--white-color);
+}
+.nav__item.nav__item--active
+{
+    background-color: var(--black-color);
+} 
+.nav__item:hover
+{
+    background-color:var(--black-color)
+}
+.nav__item-icon 
+{
+    font-size:3rem;
+}
+.nav__item-title
+{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin-top: 12px
+}
+/* NAV MOBILE */
+.nav__mobile
+{
+    background-color:var(--black-color);
+    opacity: 0.6;
+    position: fixed;
+    display: none;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+.nav__mobile-item
+{
+    color: var(--white-color);
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 12px 12px;
+}
+/* MAIN */
+.main
+{
+    background-color: var(--black-color);
+    margin-left: 120px;
+    padding: 12px 24px;
+}
+/* header */
+.header
+{
+    text-align: center;
+    padding: 32px 16px;
+    margin: 0 auto;
+    max-width:980px;
+}
+.header__name
+{
+    padding: 30px 0;
+    font-size: 6.4rem;
+    line-height:100%;
+    font-weight: 400;
+}
+.header__job
+{
+    font-size: 1.5rem;
+    padding: 10px 0;
+}
+.header__image
+{
+    max-width: 100%;
+    height: auto;
+}
+/* content */
+.content
+{
+    padding:64px 0;
+    margin: 0 auto;
+    max-width:980px;
+}
+.content-section
+{
+    padding: 22px 0;;
+}
+.content-section__name
+{
+    padding: 64px 0 22px;
+}
+.section__desc
+{
+    text-align: justify;
+    color: #757575;
+    font-size: 1.5rem;
+    line-height:1.5;
+}
+.section__skills-list
+{
+    padding: 20px 0;
+}
+.section__skill-item
+{
+    margin: 20px 0;
+}
+.section__skill-item-name
+{
+    font-size:1.6rem;
+    color: #757575;
+    letter-spacing:4px;
+}
+.section__skill-item-situation
+{
+    height:30px;
+    width: 100%;
+    background-color:var(--white-color);
+    margin: 18px 0 0;
+}
+.section__skill-item-situation--available
+{
+    background-color: #757575;
+    height: 30px;
+    width: var(--available-percent);
+}
+/* INFO SKILL */
+.section__skills-info
+{
+    background-color:var(--white-color);
+}
+.section__skills-info-item
+{
+    text-align: center;
+    padding: 35px 0;
+}
+.section__skills-info-item-quantity
+{
+    font-size:2.4rem;
+    color:var(--black-color)
+}
+.section__skills-info-item-name
+{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color:var(--black-color);
+    margin-top: 10px;
+}
+
+.section__skills-btn-download
+{
+    margin: 30px 0 0;
+}
+.section__skills-btn-download-icon
+{
+    position: relative;
+    top: -2px;
+    font-size: 1.2rem;
+}
+/* PRICE */
+.section__price-item
+{
+    background-color: var(--white-color);
+    text-align: center;
+    opacity: 0.7
+}
+.section__price-item:hover
+{
+    opacity: 1;
+}
+.section__price-list
+{
+    margin-top: 30px;
+}
+.price-item__header
+{
+    background-color:#3a3a3a;
+    font-size: 2.5rem;
+    padding: 40px 0;
+}
+.price-item__info
+{
+    color: var(--black-color);
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+.price-item__cost
+{
+    padding: 20px 0;
+}
+.price-item__cost-value
+{
+    color:var(--black-color);
+    font-size: 3rem;
+    padding: 10px 0;
+}
+.price-item__cost-time
+{
+    color:#666666;
+    font-size:1.6rem;
+    padding: 10px 0 5px;
+}
+.price-item__btn
+{
+    background-color: #f1f1f1;
+    padding: 20px 0;
+}
+/* Reputation */
+.section__reputition-list
+{
+    margin-top: 35px;
+}
+.section__reputition-item
+{
+    display: flex;
+    margin-top: 30px;
+}
+.section__reputition-item-avatar
+{
+    border-radius: 50%;
+    max-width: 80px;
+    max-height: 80px;
+}
+.section__reputition-item-detail
+{
+    color: #757575;
+    margin-left: 15px;
+}
+.section__reputition-item-info
+{
+    margin: 10px 0;
+    text-align: justify;
+}
+.section__reputition-item-info-name
+{
+    margin-right: 20px;
+    font-size: 1.8rem;
+    display: inline-block;
+}
+.section__reputition-item-info-job
+{
+    font-size:1.5rem;
+    display: inline-block;
+}
+.section__reputition-item--saying
+{
+    font-size:1.5rem;
+    padding-top: 13px;
+}
+/* Photo */
+.content-section__photo
+{
+    padding: 64px 0;
+}
+.section__photo
+{
+    width: 100%;
+    margin-bottom: 12px;
+}
+/* Contact */
+.content-section__contact
+{
+    padding:64px 0;
+}
+.contact__item
+{
+    margin: 20px 5px;
+}
+.contact__item-icon
+{
+    font-size:3rem;
+    margin-right: 30px;
+    width: 30px;
+}
+.contact__item-info
+{
+    color: #757575;
+    text-decoration: none;
+    font-size: 1.5rem;
+    display: inline-block;
+}
+.contact__item-info:last-child
+{
+    position: relative;
+    top: -2px;
+}
+/* Contact form */
+.contact-form__title
+{
+    color: #757575;
+    font-size:1.5rem;
+    margin:30px 0 20px;
+}
+.contact-form__fill
+{
+    display:block;
+    width: 100%;
+    padding: 18px 8px;
+    font-size: 1.5rem;
+    border: none;
+}
+.contact-form__fill.contact-form__fill
+{
+    margin-bottom: 15px;
+}
+
+/* footer */
+.footer
+{
+    max-width:980px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0;
+}
+.footer__icon-social i
+{
+    font-size:2.4rem;
+    margin-right: 5px;
+    color: #757575;
+}
+.footer__icon-social i:hover
+{
+    opacity:0.6;
+}
+.footer__copyright
+{
+    font-size:1.5rem;
+    color: #757575;
+    font-weight: 400;
+    padding: 30px 0;
+}
+.footer__copyright a
+{
+    color: #757575;
+}
+.footer__copyright a:hover
+{
+    color:#4caf50
+}
