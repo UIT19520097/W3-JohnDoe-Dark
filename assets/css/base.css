@@ -70,10 +70,12 @@ html
     min-width: 100px;
     font-size:1.5rem;
     display: inline-block;
-    padding: 14px 24px; 
+    padding: 16px 24px; 
     cursor: pointer;
     border-radius:2px;
     text-decoration: none;
+    border: none;
+    outline: none;
     text-align: center;
 }
 .btn:hover
